@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+html{
+ background-color: rgb(241, 241, 241);
+}
+
+body{
+ font-family: 'Epilogue', sans-serif;
+ max-width: max-content;
+ background-color: white;
+ padding-left: 30px;
+ padding-right: 50px;
+ padding-top: 10px;
+ padding-bottom: 50px;
+ height: max-content;
+ margin: auto;
+ margin-top: 20px;
+ border-radius: 10px;
+}
+.fa-circle{
+ font-size: 7px;
+ margin-left: 5px;
+ color: red;
+}
+
+.firstcomment, .secondcomment, .thirdcomment{
+ display: flex;
+ gap: 30px;
+ width: 100%;
+ margin-top: 10px;
+ line-height: 25px;
+ padding: 10px;
+ background-color: rgba(168, 194, 254, 0.149);
+ border-radius: 10px;
+ color:  rgb(94, 93, 93);
+ font-size: 15px;
+}
+.fourthcomment{
+ display: flex;
+ gap: 30px;
+ margin-top: 20px;
+ font-size: 15px;
+ color:  rgb(94, 93, 93);
+ line-height: 25px;
+ padding: 10px;
+}
+.sub-comment{
+ inline-size: 500px;
+ margin-top: 10px;
+ border: 1px solid rgb(227, 227, 227);
+ padding: 15px;
+ border-radius: 5px;
+ font-weight: lighter;
+ font-size: 15px;
+ line-height: 20px;
+ color: rgb(94, 93, 93);
+}
+.sub-comment:hover{
+ background-color: rgba(168, 194, 254, 0.324);
+}
+.name{
+ font-weight: 600;
+ color: black ;
+}
+.name:hover{
+ color: rgba(4, 4, 122, 0.881);
+}
+.fifthcomment, .sixthcomment, .seventhcomment{
+ display: flex;
+ gap: 30px;
+ margin-top: 20px;
+ line-height: 25px;
+ border-radius: 10px;
+ color:  rgb(94, 93, 93);
+ font-size: 15px;
+ padding: 10px;
+}
+.chessimg{
+ margin-left: 120px;
+}
+main{
+ margin-top: 20px
+}
+.header{
+ display: flex;
+ margin-top: 30px;
+}
+.three{
+ background-color: rgb(1, 1, 129);
+ color: white;
+ padding: 5px;
+ height: 10px;
+ text-align: center;
+ font-size: 13px;
+ width: 12px;
+ border-radius: 5px;
+ margin-left: 10px;
+ margin-top: -px;
+}
+.mark{
+ margin-left: 330px;
+ color:  rgb(94, 93, 93);
+ cursor: pointer;
+}
+.markas{
+ background-color: white;
+}
+.notification{
+ font-weight: bold;
+ font-size: 20px;
+}
+.chess{
+ color: rgb(4, 4, 122);
+ font-weight: 600;
+}
+.highlight{
+ color: rgb(99, 99, 99);
+ font-weight: 600;
+}
+.highlight:hover{
+ color: rgba(4, 4, 122, 0.881);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* mobilescreen */
+@media screen and (min-width: 300px) and (max-width: 700px){
+  body{
+   width: 100%;
+  }
+  .mark{
+   margin-left: auto;
+   float: right;
+   font-size: 15px;
+  }
+  .sub-comment{
+   width: auto;
+  }
+  .chessimg{
+   margin-left: auto;
+   float: right;
+  }
+}

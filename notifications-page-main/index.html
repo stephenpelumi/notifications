@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/bootstrap/css/bootstrap-grid.min.css"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <link rel="stylesheet" href="./assets/css/index.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet -->
+    <style></style>
+  </head>
+  <body>
+    <!-- This is the header section -->
+    <header class="header">
+      <div class="notification">
+        Notifications
+      </div>
+      <div id="serialnumber" class="three">3</div>
+      <div id="uncheck" onclick="markAsread()"  class="mark">Mark all as read</div>
+    </header>
+    <!-- This is the end of the header section -->
+
+    <main>
+      <!-- This is the first comment  section -->
+      <section id="first" class="firstcomment">
+        <div>
+          <img
+            width="45px"
+            src="./assets/images/avatar-mark-webber.webp"
+            alt=""
+          />
+        </div>
+        <div>
+          <span class="name"> Mark Webber </span>
+          reacted to your recent post
+          <span class="highlight">My first tournament today! <i id="circleone" class="fa-solid fa-circle"></i></span>
+          <img src="./assets/images/" alt="" /> <br />
+          1m ago
+        </div>
+      </section>
+      <!-- This is the end of the first comment section -->
+
+      <!-- Tis is the second comment section -->
+      <section id="second" class="secondcomment">
+        <div>
+          <img
+            width="45px"
+            src="./assets/images/avatar-angela-gray.webp"
+            alt=""
+          />
+        </div>
+        <div>
+          <span class="name"> Angela Gray </span> followed you <i id="circletwo" class="fa-solid fa-circle"></i><br />
+          5m ago
+        </div>
+      </section>
+      <!-- This is the end of the second comment section -->
+
+      <!-- This is the third section -->
+      <section id="third" class="thirdcomment">
+        <div>
+          <img
+            width="45px"
+            src="./assets/images/avatar-jacob-thompson.webp"
+            alt=""
+          />
+        </div>
+        <div>
+          <span class="name"> Jacob Thompson </span>
+          has joined your group <span class="chess">Chess Club <i id="circlethird" class="fa-solid fa-circle"></i></span><br />
+          1 day ago
+        </div>
+      </section>
+      <!-- This is the end of the third comment section -->
+
+      <!-- This is the fourth comment section -->
+      <article class="fourthcomment">
+        <section>
+          <img
+            width="45px"
+            src="./assets/images/avatar-rizky-hasanuddin.webp"
+            alt=""
+          />
+        </section>
+        <section>
+          <span class="name">Rizky Hasanuddin</span>
+          sent you a private message<br />
+          5 days ago
+          <!-- this is the subcontent area fo the fourth cmment -->
+          <div class="sub-comment">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </div>
+        </section>
+      </article>
+      <!-- This is the end of the fourth section -->
+
+      <!-- This is the fifth section -->
+      <section class="fifthcomment">
+        <div>
+          <img
+            width="45px"
+            src="./assets/images/avatar-kimberly-smith.webp"
+            alt=""
+          />
+        </div>
+        <div>
+          <span class="name"> Kimberly Smith</span>
+          commented on your picture<br />
+          1 week ago
+        </div>
+        <div>
+          <img class="chessimg" src="./assets/images/image-chess.webp" alt="" width="45px" />
+        </div>
+      </section>
+      <!-- This is the end of the fifth section -->
+
+      <!-- The sixth section starts here -->
+      <section class="sixthcomment">
+        <div>
+          <img
+            width="45px"
+            src="./assets/images/avatar-nathan-peterson.webp"
+            alt=""
+          />
+        </div>
+        <div>
+        <span class="name"> Nathan Peterson </span>
+          reacted to your recent post
+          <span class="highlight"> 5 end-game strategies to<br> increase your win rate</span> <br />
+          2 weeks ago
+        </div>
+      </section>
+      <!-- The sixth ection ends here -->
+
+      <!-- The seventh section starts here -->
+      <section class="seventhcomment">
+        <div>
+          <img width="45px" src="./assets/images/avatar-anna-kim.webp" alt="" />
+        </div>
+        <div>
+          <span class="name"> Anna Kim</span> left the group
+          <span class="chess">Chess Club</span><br />
+          2 weeks ago
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.linkedin.com/in/pelumi-ajuwon">Ajuwon Pelumi</a>.
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
